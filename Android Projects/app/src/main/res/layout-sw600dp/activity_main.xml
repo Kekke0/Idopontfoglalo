@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="410dp"
+        android:layout_height="125dp"
+        android:text="@string/udv"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#DC011A"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <Button
+        android:id="@+id/Loginb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:onClick="Login"
+        android:text="@string/login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.111"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <Button
+        android:id="@+id/Reg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/reg"
+        android:onClick="Reg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gmaillog"
+        app:layout_constraintVertical_bias="0.253"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <Button
+        android:id="@+id/guest"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/guest"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Reg"
+        app:layout_constraintVertical_bias="0.376"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:onClick="Jumptodate"/>
+
+    <Button
+        android:id="@+id/gmaillog"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/googlereg"
+        android:onClick="googlelog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Loginb"
+        app:layout_constraintVertical_bias="0.155"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

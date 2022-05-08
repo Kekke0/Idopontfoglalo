@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TetovaloIdopontFoglalo</string>
+    <string name="udv">Üdvözöljük időpontfoglaló alkalmazásunkban!</string>
+    <string name="usnev">Felhasználónév</string>
+    <string name="pass">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="reg">Regisztráció</string>
+    <string name="googlereg">Bejelentkezés google fiókkal</string>
+    <string name="guest">Látogató</string>
+    <string name="email">Email cím</string>
+    <string name="cancel">Vissza</string>
+    <string name="phone">Telefonszám</string>
+    <string name="datetext">Kérem válassza ki melyik nap szeretne időpontot foglalni!</string>
+    <string name="intenttext">Kérem adja meg látogatása kategóriáját, és pár általános infrmációt arról, hogy mit is szeretne.</string>
+    <string name="explain">Általános információk \n (Pl.: Tetoválás helye, mérete)</string>
+    <string name="send">Küldés</string>
+    <string name="bdate">JAN 01 2022</string>
+    <string name="pass2">Jelszó megerősítés</string>
+    <string name="delint">Lemondom</string>
+    <string name="more">Bővebben</string>
+    <string name="e_mail_c_m">E-mail cím</string>
+    <string name="fogl">Foglalás</string>
+    <string-array name="kategoriak">
+        <item>"Tetoválás"</item>
+        <item>"Pirszing/Fülbevaló"</item>
+        <item>"Egyéb"</item>
+    </string-array>
+    <string-array name="idopontok">
+        <item>"8:00-9:00"</item>
+        <item>"9:00-10:00"</item>
+        <item>"10:00-11:00"</item>
+        <item>"11:00-12:00"</item>
+        <item>"12:00-13:00"</item>
+        <item>"13:00-14:00"</item>
+        <item>"14:00-15:00"</item>
+        <item>"15:00-16:00"</item>
+    </string-array>
+</resources>

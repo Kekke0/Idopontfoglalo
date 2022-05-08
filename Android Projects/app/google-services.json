@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "363114428246",
+    "project_id": "tttidopontfoglalo",
+    "storage_bucket": "tttidopontfoglalo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363114428246:android:5bfba3cdb4d6aaf3ab08f7",
+        "android_client_info": {
+          "package_name": "com.example.tetovaloidopontfoglalo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363114428246-ns4qtsgibg6k39h2aorvmooqrkv1l29l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tetovaloidopontfoglalo",
+            "certificate_hash": "241da05ed151ce4bb3f92a643eec80f55e1e28fc"
+          }
+        },
+        {
+          "client_id": "363114428246-4293mtbodhnfkv9cfg9bt4jmav8e9592.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8_fYDK3pKQ7Pyw7H7vpT8HnGgXDhexT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363114428246-4293mtbodhnfkv9cfg9bt4jmav8e9592.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
